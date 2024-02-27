@@ -1,0 +1,133 @@
+
+body {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    background-image: url('matcha_beetroot.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: rgba(54, 69, 46, 0.9);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 20px; }
+
+#navbar a {
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#navbar a:hover {
+    background-color: rgba(85, 107, 47, 0.7);
+    transform: scale(1.1); 
+}
+
+#cafeName a {
+    color: black;
+    font-family: "Lobster", sans-serif;
+    font-weight: 1000;
+    font-size: xx-large;
+    text-decoration: underline;
+    order: 1; 
+}
+.main-container{
+
+    display: flex;
+    justify-content: space-around;
+    /* border: red 3px solid; */
+
+}
+
+.drink{
+    width: 75%;
+    /* border: solid 2px white; */
+
+}
+.drink img{
+    /* width: 100%;
+    height: 75%; */
+}
+.drink-menu {
+    color: black;
+    font-family: "Lobster", sans-serif;
+    font-weight: 1000;
+    font-size: large;
+    background-color: rgba(85, 107, 47, 0.7);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 10px;
+    /* border: 3px white solid; */
+}
+
+.drink-item {
+    /* margin: 10px; */
+    /* flex-basis: calc(33.33% - 20px);  */
+    /* border: 3px pink solid; */
+    width: 30%;
+
+
+}
+
+.drink-item img {
+    width: 100%;
+    height: 75%;
+    /* /* width: 100%;  */
+    /* height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */ */
+}
+
+.drink-name {
+    color: white;
+}
+
+.drink-price {
+    color: white;
+}
+
+#footer {
+    background-color: rgba(54, 69, 46, 0.9);
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: large;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    max-width: 100%;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#footer a {
+    color: #fff;
+    font-family: "Arial", sans-serif; 
+    font-size: large; 
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#footer a:hover {
+    background-color: rgba(85, 107, 47, 0.7);
+    transform: scale(1.1);
+}

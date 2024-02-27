@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  background-image: url('matcha_beetroot.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background-color: rgba(54, 69, 46, 0.9);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: large;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  max-width: 100%;
+  margin: 0;
+}
+
+#navbar a {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: color 0.3s; 
+}
+
+#navbar a:hover {
+  color: #3498db;}
+
+#cafeName a {
+  color: black;
+  font-family: "Lobster", sans-serif;
+  font-weight: 1000;
+  font-size: xx-large;
+  text-decoration: underline;
+}
+
+#navbar a:not(#cafeName a) {
+  font-family: "Arial", sans-serif; 
+  font-size: large;
+}
+
+.image-container {
+  margin-top: 30px;
+}
+
+.text-container {
+  font-family: "Lobster", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  text-align: left;
+  background-color: rgba(85, 107, 47, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: rgb(0, 0, 0);
+  font-size: large
+}
+
+.text-container p{
+  font-size: 23px;
+}
+h1 img {
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#footer {
+  background-color: rgba(54, 69, 46, 0.9);
+  height: 75px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: large;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  max-width: 100%;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#footer a {
+  color: #fff;
+  font-family: "Arial", sans-serif; 
+  font-size: large; 
+  font-weight: 600;
+  transition: color 0.3s; }
+
+#footer a:hover {
+  color: #3498db;}
